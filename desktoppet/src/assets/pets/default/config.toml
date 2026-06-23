@@ -1,0 +1,44 @@
+[appear]
+folder = "appear"
+loop = false
+
+[idle]
+folder = "idle"
+loop = true
+variants = ["idle_var1", "idle_var2", "idle_var3", "idle_var4", "idle_var5"]
+
+[clicked]
+folder = "clicked"
+loop = false
+
+[think]
+folder = "think"
+loop = true
+
+[talk]
+folder = "talk"
+loop = true
+
+[sleeping]
+folder = "sleeping"
+loop = true
+
+[typing]
+folder = "typing"
+loop = true
+
+[worried]
+folder = "worried"
+loop = true
+
+[sweating]
+folder = "sweating"
+loop = true
+
+[shutdown]
+folder = "shutdown"
+loop = false
+
+[raised]
+folder = "raised"
+loop = true

@@ -1,0 +1,31 @@
+# Logs
+*.log
+
+# Dependencies
+node_modules
+dist
+dist-ssr
+
+# IDE / Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Claude / AI assistant
+.claude/
+.kiro/
+.superpowers/
+
+# Rust build artifacts
+desktoppet/src-tauri/target/
+desktoppet/src-tauri/gen/
+
+# ENV
+*.local
+.env

@@ -1,0 +1,102 @@
+[
+  {
+    "state": "appear",
+    "trigger": "on_enter",
+    "text": [
+      "嘿！我来了~",
+      "早上好呀！",
+      "又见面了！",
+      "{pet_name} 回来啦！"
+    ],
+    "cooldown_seconds": 0,
+    "duration_ms": 3000
+  },
+  {
+    "state": "think",
+    "trigger": "on_enter",
+    "text": [
+      "嗯...",
+      "让我想想...",
+      "等一下哦~"
+    ],
+    "cooldown_seconds": 0,
+    "duration_ms": 2000
+  },
+  {
+    "state": "sleeping",
+    "trigger": "on_enter",
+    "text": [
+      "Zzz...",
+      "好困，先睡一会儿...",
+      "呼——"
+    ],
+    "cooldown_seconds": 300,
+    "duration_ms": 3000
+  },
+  {
+    "state": "sleeping",
+    "trigger": "on_return_from",
+    "text": [
+      "你回来了！",
+      "睡醒了吗？",
+      "嗯？怎么了？"
+    ],
+    "cooldown_seconds": 180,
+    "duration_ms": 3000
+  },
+  {
+    "state": "typing",
+    "trigger": "on_enter",
+    "text": [
+      "你在忙什么？",
+      "键盘敲得好快...",
+      "在写什么好东西？"
+    ],
+    "cooldown_seconds": 600,
+    "duration_ms": 3000
+  },
+  {
+    "state": "worried",
+    "trigger": "on_enter",
+    "text": [
+      "已经{time}了，还不睡吗？",
+      "熬夜会长黑眼圈...",
+      "该休息啦！"
+    ],
+    "cooldown_seconds": 600,
+    "duration_ms": 4000
+  },
+  {
+    "state": "sweating",
+    "trigger": "on_enter",
+    "text": [
+      "好热...你的电脑在冒烟！",
+      "CPU 要炸了！",
+      "这是在编译什么怪物..."
+    ],
+    "cooldown_seconds": 300,
+    "duration_ms": 3000
+  },
+  {
+    "state": "clicked",
+    "trigger": "on_return_from",
+    "text": [
+      "嘻嘻~",
+      "痒！",
+      "别闹~"
+    ],
+    "cooldown_seconds": 0,
+    "duration_ms": 2000
+  },
+  {
+    "state": "shutdown",
+    "trigger": "on_enter",
+    "text": [
+      "拜拜~",
+      "下次见！",
+      "不要忘了我哦..."
+    ],
+    "cooldown_seconds": 0,
+    "duration_ms": 2000
+  }
+]
